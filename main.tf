@@ -3,7 +3,7 @@
 ##########
 
 module "vpc" {
-  source = "git@github.com:NumberMuncherGeorge/terraform-google-vpc.git"
+  source = "git@github.com:EighthHeight/terraform-google-vpc.git"
   # Project
   gcp_project_id = var.gcp_project_id
   # VPC
